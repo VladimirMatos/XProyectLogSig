@@ -132,4 +132,49 @@
       <Name>XamarinSigandLogPage</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\USUA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\alfiler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cafeteria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\camarero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cerveza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\comida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\descarga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Facebu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Git.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Gmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_show.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Tuita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\User.png" />
+  </ItemGroup>
 </Project>

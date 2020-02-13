@@ -574,11 +574,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladi\\Desktop\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj",
+      "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj",
       "projectName": "XamarinSigandLogPage",
-      "projectPath": "C:\\Users\\vladi\\Desktop\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj",
+      "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj",
       "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladi\\Desktop\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage\\obj\\",
+      "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
