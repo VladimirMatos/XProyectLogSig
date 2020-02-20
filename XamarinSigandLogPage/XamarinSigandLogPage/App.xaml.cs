@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinSigandLogPage.Views;
 
 namespace XamarinSigandLogPage
 {
@@ -10,7 +11,7 @@ namespace XamarinSigandLogPage
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new LoginPage(""));
+            MainPage = new NavigationPage(new LoginPage());
             
         }
 

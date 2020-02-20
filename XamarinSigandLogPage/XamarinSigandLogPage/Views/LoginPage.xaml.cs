@@ -1,0 +1,38 @@
+﻿using XamarinSigandLogPage.ViewModel;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+
+
+namespace XamarinSigandLogPage.Views
+{
+    // Learn more about making custom code visible in the Xamarin.Forms previewer
+    // by visiting https://aka.ms/xamarinforms-previewer
+    [DesignTimeVisible(false)]
+    public partial class LoginPage : ContentPage 
+    {
+        public LoginPage()
+        {
+            InitializeComponent();
+            BindingContext = new LoginPageViewModel();
+
+        }
+
+        private void IcShowandHidePass(System.Object sender, System.EventArgs e)
+        {
+
+        }
+        private void GoToSignUpTapped(object sender, EventArgs e)
+        {
+           
+        }
+        private void ButtonLogin(object sender, EventArgs e)
+        {
+             
+        }
+    }
+}

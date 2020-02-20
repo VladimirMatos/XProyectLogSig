@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\XamarinSigandLogPage.Android.csproj": {}
+    "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\XamarinSigandLogPage.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\XamarinSigandLogPage.Android.csproj": {
+    "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\XamarinSigandLogPage.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\XamarinSigandLogPage.Android.csproj",
+        "projectUniqueName": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\XamarinSigandLogPage.Android.csproj",
         "projectName": "XamarinSigandLogPage.Android",
-        "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\XamarinSigandLogPage.Android.csproj",
+        "projectPath": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\XamarinSigandLogPage.Android.csproj",
         "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\obj\\",
+        "outputPath": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj": {
-                "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj"
+              "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj": {
+                "projectPath": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.2.6, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.3.1, )"
@@ -54,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj": {
+    "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj",
+        "projectUniqueName": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj",
         "projectName": "XamarinSigandLogPage",
-        "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj",
+        "projectPath": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj",
         "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage\\obj\\",
+        "outputPath": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -98,6 +102,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.2.6, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

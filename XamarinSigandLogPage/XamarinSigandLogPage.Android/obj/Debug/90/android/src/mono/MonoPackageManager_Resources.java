@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "XamarinSigandLogPage.Android.dll" comes first in this list. */
 		"XamarinSigandLogPage.Android.dll",
 		"FormsViewGroup.dll",
+		"PropertyChanged.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
