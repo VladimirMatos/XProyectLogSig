@@ -53,6 +53,13 @@ namespace XamarinSigandLogPage.ViewModel
         public Items Nearby { get; set; }
         public Items FeaturedFoods { get; set; }
 
+        public Items LabelBarsandHotels { get; set; }
+        public Items LabelCafe { get; set; }
+        public Items LabelFastFood { get; set; }
+        public Items LabelFineDining { get; set; }
+        public Items LabelNearby { get; set; }
+        public Items LabelFeaturedFoods { get; set; }
+
         public DiscoveryPageViewModel()
         {
             UserDisc = new UserModel();

@@ -7,7 +7,6 @@
             mc:Ignorable="d"
              x:Class="XamarinSigandLogPage.Views.MenuTabbedPage">
   <!--Pages can be added as references or inline-->
-    <local:BookMarkPage Title="Aqui"/>
     <local:DiscoveryPage Title="discovery"/>
     <local:HomePage/>
     <local:ProfilePage/>

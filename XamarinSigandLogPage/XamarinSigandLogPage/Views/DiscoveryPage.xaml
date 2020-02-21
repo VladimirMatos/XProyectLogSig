@@ -24,7 +24,7 @@
                         Grid.Column="0"
                         Grid.Row="0"
                         ImageView="{Binding BarsandHotels.ImageView}"
-                        TextLabel="{Binding LabelText}"
+                        TextLabel="{Binding LabelBarsandHotels.LabelText}"
                         TextLabeSmall="42 place">
                     <xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding CommandColorChange}"
@@ -37,7 +37,7 @@
                         Grid.Column="0"
                         Grid.Row="1"
                         ImageView="{Binding Cafe.ImageView}"
-                        TextLabel="{Binding LabelText}" 
+                        TextLabel="{Binding LabelCafe.LabelText}" 
                         TextLabeSmall="42 place">
                     <xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding CommandColorChange}"
@@ -50,7 +50,7 @@
                         Grid.Column="0"
                         Grid.Row="2"
                         ImageView="{Binding FastFood.ImageView}"
-                        TextLabel="{Binding LabelText}" 
+                        TextLabel="{Binding LabelFastFood.LabelText}" 
                         TextLabeSmall="42 place">
                     <xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding CommandColorChange}"
@@ -63,7 +63,7 @@
                         Grid.Column="1"
                         Grid.Row="0"
                         ImageView="{Binding FineDining.ImageView}"
-                        TextLabel="{Binding LabelText}" 
+                        TextLabel="{Binding LabelFineDining.LabelText}" 
                         TextLabeSmall="42 place">
                     <xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding CommandColorChange}"
@@ -76,7 +76,7 @@
                         Grid.Column="1"
                         Grid.Row="1"
                         ImageView="{Binding Nearby.ImageView}"
-                        TextLabel="{Binding LabelText}" 
+                        TextLabel="{Binding LabelNearby.LabelText}" 
                         TextLabeSmall="42 place">
                     <xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding CommandColorChange}"
@@ -90,7 +90,7 @@
                         Grid.Column="1"
                         Grid.Row="2"
                         ImageView="{Binding FeaturedFoods.ImageView}"
-                        TextLabel="{Binding LabelText}" 
+                        TextLabel="{Binding LabelFeaturedFoods.LabelText}" 
                         TextLabeSmall="42 place">
                     <xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding CommandColorChange}"
