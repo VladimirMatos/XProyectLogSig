@@ -50,7 +50,7 @@
                    FontSize="20"
                    Margin="0,10,0,0">
                     <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="GoToSignUpTapped"/>
+                        <TapGestureRecognizer Command="{Binding CommandGoToSignUpTapped}"/>
                     </Label.GestureRecognizers>
 
                 </Label>
@@ -64,6 +64,7 @@
                   />
 
                 <Entry Placeholder="Username or email address"
+                   Text="{Binding UserLogin.Username}"
                    x:Name="EntryUsername"
                    Grid.Row="3"
                    Grid.Column="1"
@@ -71,6 +72,7 @@
                 />
                        
                 <Entry Placeholder="Password"
+                   Text="{Binding UserLogin.Pass}"
                    IsPassword="True"
                    Grid.Row="4"
                    Grid.Column="1"
@@ -80,9 +82,9 @@
                 <Button Text="Login"
                    Grid.Row="5"
                    Grid.Column="1"
-                   Grid.ColumnSpan="7"
-                   Clicked="ButtonLogin"
-                />
+                   Grid.ColumnSpan="7"                   
+                   Command="{Binding CommandValid}"                    
+                    />
 
                 <Label VerticalTextAlignment="End"
                    Text=" Login with"
@@ -113,10 +115,6 @@
                         <TapGestureRecognizer Tapped="IcShowandHidePass"/>
                     </Image.GestureRecognizers>
                 </Image>
-                       
-                
-
-
 
             </Grid>
         </ScrollView>

@@ -11,7 +11,7 @@ namespace XamarinSigandLogPage.ViewModel
 {
    public class LoginPageViewModel : INotifyPropertyChanged
     {
-        public UserModels UserLogin { get; set; }
+        public UserModel UserLogin { get; set; }
         public ICommand CommandValid { get; set; }
         public ICommand CommandGoToSignUpTapped { get; set; }
         public bool HideAndShow { get; set; }
@@ -19,7 +19,7 @@ namespace XamarinSigandLogPage.ViewModel
         public ICommand CommandVisible { get; set; }
         public LoginPageViewModel()
         {
-            UserLogin = new UserModels();
+            UserLogin = new UserModel();
             HideAndShow = true;
             ImageView = "ic_show";
             CommandVisible = new Command(() =>

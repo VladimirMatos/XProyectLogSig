@@ -45,7 +45,7 @@
                    FontSize="20"
                    Margin="0,10,0,0">
                     <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="GoToLoginTapped"/>
+                        <TapGestureRecognizer Command="{Binding CommandGoToLoginTapped}"/>
                     </Label.GestureRecognizers>
                 </Label>
                   
@@ -87,7 +87,7 @@
                    Grid.Row="6"
                    Grid.Column="1"
                    Grid.ColumnSpan="3"
-                   Clicked="SignUpButton"
+                   Command="{Binding CommandValid}"
                 />
                 <Label VerticalTextAlignment="End"
                    Text=" Terms of service"

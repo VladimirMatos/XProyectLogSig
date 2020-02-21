@@ -11,13 +11,13 @@ namespace XamarinSigandLogPage.ViewModel
 {
     public class SignUpPageViewModel : INotifyPropertyChanged
     {
-        public UserModels UserSign { get; set; }
+        public UserModel UserSign { get; set; }
         public ICommand CommandGoToLoginTapped { get; set; }
         public ICommand CommandValid { get; set; }
         public int MyProperty { get; set; }
         public SignUpPageViewModel()
         {
-            UserSign = new UserModels();
+            UserSign = new UserModel();
 
             CommandGoToLoginTapped = new Command(async () =>
             {

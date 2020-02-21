@@ -23,55 +23,65 @@
                 <xamarinsigandlogpage:GeneralViewPage
                         Grid.Column="0"
                         Grid.Row="0"
-                        ImageView="cerveza"
-                        TextLabel="Bar And Hotels"
+                        ImageView="{Binding BarsandHotels.ImageView}"
+                        TextLabel="{Binding LabelText}"
                         TextLabeSmall="42 place">
                     <xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapNearby"/>
+                        <TapGestureRecognizer Command="{Binding CommandColorChange}"
+                                              CommandParameter="BarsHotels"
+                                              NumberOfTapsRequired="1"/>
                     </xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
                 </xamarinsigandlogpage:GeneralViewPage>
 
                 <xamarinsigandlogpage:GeneralViewPage
                         Grid.Column="0"
                         Grid.Row="1"
-                        ImageView="cafeteria"
-                        TextLabel="Cafe" 
+                        ImageView="{Binding Cafe.ImageView}"
+                        TextLabel="{Binding LabelText}" 
                         TextLabeSmall="42 place">
                     <xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapNearby"/>
+                        <TapGestureRecognizer Command="{Binding CommandColorChange}"
+                                              CommandParameter="Cafe"
+                                              NumberOfTapsRequired="1"/>
                     </xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
                 </xamarinsigandlogpage:GeneralViewPage>
 
                 <xamarinsigandlogpage:GeneralViewPage
                         Grid.Column="0"
                         Grid.Row="2"
-                        ImageView="comida"
-                        TextLabel="Fast Food" 
+                        ImageView="{Binding FastFood.ImageView}"
+                        TextLabel="{Binding LabelText}" 
                         TextLabeSmall="42 place">
                     <xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapNearby"/>
+                        <TapGestureRecognizer Command="{Binding CommandColorChange}"
+                                              CommandParameter="FastFood"
+                                              NumberOfTapsRequired="1"/>
                     </xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
                 </xamarinsigandlogpage:GeneralViewPage>
 
                 <xamarinsigandlogpage:GeneralViewPage
                         Grid.Column="1"
                         Grid.Row="0"
-                        ImageView="camarero"
-                        TextLabel="Fine Dining" 
+                        ImageView="{Binding FineDining.ImageView}"
+                        TextLabel="{Binding LabelText}" 
                         TextLabeSmall="42 place">
                     <xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapNearby"/>
+                        <TapGestureRecognizer Command="{Binding CommandColorChange}"
+                                              CommandParameter="FineDining"
+                                              NumberOfTapsRequired="1"/>
                     </xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
                 </xamarinsigandlogpage:GeneralViewPage>
 
                 <xamarinsigandlogpage:GeneralViewPage
                         Grid.Column="1"
                         Grid.Row="1"
-                        ImageView="alfiler"
-                        TextLabel="Nearby" 
+                        ImageView="{Binding Nearby.ImageView}"
+                        TextLabel="{Binding LabelText}" 
                         TextLabeSmall="42 place">
                     <xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapNearby"/>
+                        <TapGestureRecognizer Command="{Binding CommandColorChange}"
+                                              CommandParameter="Nearby"
+                                              NumberOfTapsRequired="1"/>
 
                     </xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
                 </xamarinsigandlogpage:GeneralViewPage>
@@ -79,11 +89,13 @@
                 <xamarinsigandlogpage:GeneralViewPage
                         Grid.Column="1"
                         Grid.Row="2"
-                        ImageView="pizza"
-                        TextLabel="Featured Foods" 
+                        ImageView="{Binding FeaturedFoods.ImageView}"
+                        TextLabel="{Binding LabelText}" 
                         TextLabeSmall="42 place">
                     <xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapNearby"/>
+                        <TapGestureRecognizer Command="{Binding CommandColorChange}"
+                                              CommandParameter="FeaturedFoods "
+                                              NumberOfTapsRequired="1"/>
                     </xamarinsigandlogpage:GeneralViewPage.GestureRecognizers>
                 </xamarinsigandlogpage:GeneralViewPage>
             </Grid>

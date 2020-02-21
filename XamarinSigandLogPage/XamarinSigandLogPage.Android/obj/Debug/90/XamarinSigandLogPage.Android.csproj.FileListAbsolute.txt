@@ -1943,3 +1943,5 @@ C:\Users\vladi\Desktop\uni\Save1-master\XamarinSigandLogPage\XamarinSigandLogPag
 C:\Users\vladi\Desktop\uni\Save1-master\XamarinSigandLogPage\XamarinSigandLogPage.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\vladi\Desktop\uni\Save1-master\XamarinSigandLogPage\XamarinSigandLogPage.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\vladi\Desktop\uni\Save1-master\XamarinSigandLogPage\XamarinSigandLogPage.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\vladi\Documents\GitHub\XProyectLogSig\XamarinSigandLogPage\XamarinSigandLogPage.Android\obj\Debug\90\XamarinSigandLogPage.Android.csproj.Fody.CopyLocal.cache
+C:\Users\vladi\Documents\GitHub\XProyectLogSig\XamarinSigandLogPage\XamarinSigandLogPage.Android\obj\Debug\90\android\assets\PropertyChanged.dll

@@ -5208,11 +5208,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\XamarinSigandLogPage.Android.csproj",
+      "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\XamarinSigandLogPage.Android.csproj",
       "projectName": "XamarinSigandLogPage.Android",
-      "projectPath": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\XamarinSigandLogPage.Android.csproj",
+      "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\XamarinSigandLogPage.Android.csproj",
       "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\obj\\",
+      "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -5233,8 +5233,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj": {
-              "projectPath": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj"
+            "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj": {
+              "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj"
             }
           }
         }

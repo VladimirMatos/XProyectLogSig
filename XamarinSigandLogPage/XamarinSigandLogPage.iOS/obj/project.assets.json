@@ -5714,11 +5714,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage.iOS\\XamarinSigandLogPage.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage.iOS\\XamarinSigandLogPage.iOS.csproj",
       "projectName": "XamarinSigandLogPage.iOS",
-      "projectPath": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage.iOS\\XamarinSigandLogPage.iOS.csproj",
+      "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage.iOS\\XamarinSigandLogPage.iOS.csproj",
       "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage.iOS\\obj\\",
+      "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -5739,8 +5739,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj": {
-              "projectPath": "C:\\Users\\vladi\\Desktop\\uni\\Save1-master\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj"
+            "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj": {
+              "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\XProyectLogSig\\XamarinSigandLogPage\\XamarinSigandLogPage\\XamarinSigandLogPage.csproj"
             }
           }
         }
